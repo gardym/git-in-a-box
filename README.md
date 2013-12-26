@@ -27,3 +27,8 @@
 
 5. From here on out, you're in gitolite country.
 
+## TODO
+
+- Store git repositories outside the docker container
+- Run gitweb
+
