@@ -1,8 +1,7 @@
-# git-in-a-box
+### gitinabox
 
-## This software will beat you up and take your lunch money.
-
-## DO NOT USE IT YET
+### This software will beat you up and take your lunch money.
+### DO NOT USE IT YET
 
 1. Put your AWS credentials in ~/.fog like so:
 

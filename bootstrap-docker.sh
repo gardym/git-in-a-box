@@ -17,7 +17,5 @@ cp /tmp/id_rsa.pub .
 # Wait for docker to really be running
 while [ ! -f /var/run/docker.pid ]; do sleep 2; done
 
-# TODO: It would be better to just pull the image from the registry
-# rather than building it locally.
 sudo docker build -t gitolite .
 sudo docker run -d -p 2222:22 gitolite
